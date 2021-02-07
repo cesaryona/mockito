@@ -8,7 +8,7 @@ import lombok.AllArgsConstructor;
 @AllArgsConstructor
 public class TodoBusinessImpl {
 
-	private TodoService todoService;
+	private final TodoService todoService;
 
 	public List<String> retrieveTodosRelatedToSpring(String user) {
 
